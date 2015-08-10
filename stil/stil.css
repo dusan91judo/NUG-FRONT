@@ -1,0 +1,20 @@
+#navigacija {
+	background-color: #62C2CC;
+	border: 0;
+	border-radius: 0;
+	border-bottom: 5px solid #3EB2BE;
+}
+
+#navigacija a {
+	color: #E4F6F8;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+#navigacija a:hover {
+	background-color: #3EB2BE
+}
+
+#navigacija .navbar-header a {
+	font-weight: 900;
+}
