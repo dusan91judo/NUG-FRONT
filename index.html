@@ -13,8 +13,8 @@
 	<!-- Navgijacija
 	________________________
 	-->
-	<nav class="navbar navbar-default" id="navigacija">
-		<div class="container">
+	<nav class="navbar navbar-default navbar-fixed-top" id="navigacija">
+		<div class="container-fluid">
 			<div class="navbar-header">
       			<a class="navbar-brand" href="index.html">NUG</a>
       			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -42,20 +42,23 @@
 	________________________
 	-->
 			<div class="col-sm-10" id="pretraga">
-				<div class="input-group input-group-lg" id="poljePretraga">
-			    	<input type="text" class="form-control">
-			    	<span class="input-group-btn">
-        				<button class="btn btn-default" type="button">Pretrazi!</button>
-      				</span>
-			    </div>
-			</div>
-	<!-- Reklama
-	________________________
-	-->
-			<div class="col-sm-2 hidden-xs" id="reklama">
-				<img src="slike/reklama.jpg" alt="Mesto za reklamu">
+				<div id="pretragaInputCB">
+					<div class="input-group input-group-lg" id="poljePretraga">
+				    	<input type="text" class="form-control">
+				    	<span class="input-group-btn">
+	        				<button class="btn btn-default" type="button">Pretrazi!</button>
+	      				</span>
+				    </div>
+				    <div id="grupaChBox">
+				    	<input type="checkbox"> Items<br>
+				    	<input type="checkbox"> Events
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div id="sidebar-wrapper">
+            
+        </div>
 </body>
 </html>

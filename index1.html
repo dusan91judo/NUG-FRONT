@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NUG</title>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stil/bootstrap.css">
+	<link rel="stylesheet" href="stil/stil.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+	<!-- Navgijacija
+	________________________
+	-->
+	<nav class="navbar navbar-default navbar-fixed-top" id="navigacija">
+		<div class="container-fluid">
+			<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html">NUG</a>
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+      			</button>
+    		</div>
+    		<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+    			<ul class="nav navbar-nav">
+    				<li><a href="#">Stranica 1</a></li>
+    				<li><a href="#">Stranica 2</a></li>
+    				<li><a href="#">Stranica 3</a></li>
+    			</ul>
+    		</div>
+		</div>
+	</nav>
+	<!-- Sadrzaj
+	________________________
+	-->
+	
+	<div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <div id="reklama">
+            	
+            </div>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12" id="pretraga">
+						<div class="input-group input-group-lg" id="poljePretraga">
+						    <input type="text" class="form-control">
+						    <span class="input-group-btn">
+			        			<button class="btn btn-default" type="button">Pretrazi!</button>
+			      			</span>
+						</div>
+						<div id="grupaChBox">
+						    <input type="checkbox"> Items<br>
+						    <input type="checkbox"> Events
+						</div>
+						<div class="cisti"></div>
+						<a href="#" id="prikaziNaprednu">Napredna pretraga</a>
+						<div id="naprednaPretraga"></div>
+						<div id="predlozeniTagovi">
+							<a href="#">Bosko</a><a href="#">je</a><a href="#">majstor</a><a href="#">kazu svi</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a><a href="#">Neka rec</a>
+						</div>
+                    </div>
+                </div>
+                <div class="row">
+                	<div class="col-sm-6">
+						<table class="table">
+						    <thead>
+						      <tr>
+						        <th colspan="3" align="center">Najtrazenija mesta u gradu</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr>
+						        <td>John</td>
+						        <td>Doe</td>
+						        <td>john@example.com</td>
+						      </tr>
+						      <tr>
+						        <td>Mary</td>
+						        <td>Moe</td>
+						        <td>mary@example.com</td>
+						      </tr>
+						      <tr>
+						        <td>July</td>
+						        <td>Dooley</td>
+						        <td>july@example.com</td>
+						      </tr>
+						    </tbody>
+						  </table>
+					</div>
+					<div class="col-sm-6">
+						<table class="table">
+						    <thead>
+						      <tr>
+						        <th colspan="3" align="center">Jos neka 3</th>
+						      </tr>
+						    </thead>
+						    <tbody>
+						      <tr>
+						        <td>John</td>
+						        <td>Doe</td>
+						        <td>john@example.com</td>
+						      </tr>
+						      <tr>
+						        <td>Mary</td>
+						        <td>Moe</td>
+						        <td>mary@example.com</td>
+						      </tr>
+						      <tr>
+						        <td>July</td>
+						        <td>Dooley</td>
+						        <td>july@example.com</td>
+						      </tr>
+						    </tbody>
+						  </table>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>
