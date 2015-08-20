@@ -1,6 +1,6 @@
 $(document).ready(function() {
-	$("#naprednaPretraga").hide();
-	$("#prikaziNaprednu").click(function() {
-		$("#naprednaPretraga").toggle();
+	$("#advanceSearch").hide();
+	$("#showAdvanceSearch").click(function() {
+		$("#advanceSearch").toggle();
 	});
 });
